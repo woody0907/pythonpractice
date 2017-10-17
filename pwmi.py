@@ -20,7 +20,7 @@ w=wmi.WMI(computer=cip, user=cuser, password=cpass)
 for process in w.Win32_Process ():
   print("%5s  %s" % (process.ProcessId, process.Name) )
 
-# for pm in w.Win32_PhysicalMedia():
+# for pm in w.Win32_PhysicalMedia(): 
 #   print("%s" % ( pm.tag) )
 
 # for battary in w.Win32_Battery():

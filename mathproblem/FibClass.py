@@ -14,6 +14,7 @@ class FibClass:
             return r
         raise StopIteration()
 
+
 if __name__ == '__main__':
     for n in FibClass(5):
         print(n)
